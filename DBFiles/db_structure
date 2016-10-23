@@ -1,0 +1,13 @@
+create database wt;
+use wt;
+
+create table accident(
+	id int primary key auto_increment,
+	accident_number varchar(20),
+	accident_address varchar(100),
+	accident_year int,
+	accident_month int,
+	accident_day int,
+	accident_hour int
+);
+
